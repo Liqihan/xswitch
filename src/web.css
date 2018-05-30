@@ -14,12 +14,14 @@ body {
 .monaco-editor .redsquiggly {
   background: none !important;
 }
-
+J_SwitchContainer {
+  position: relative;
+}
 .switch-area {
-  position: fixed;
+  position: absolute;
   right: 42px;
   z-index: 1000;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .new-tab-control {
